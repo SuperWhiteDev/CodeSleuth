@@ -1,0 +1,130 @@
+{
+    "name": "Dark",
+    "MainWindow": {
+        "background-color": "rgb(68, 68, 68)",
+        "color": "rgb(255, 255, 255)",
+        "selection-background-color": "rgb(255, 255, 127)"
+    },
+    "MainWindow-MenuBar": {
+        "background-color": "rgb(80, 80, 80)",
+        "menu-color": "rgb(255, 255, 255)",
+        "selection-background-color": "rgb(54, 54, 54)",
+        "item-background-color": "",
+        "item-color": "rgb(255, 255, 255)",
+        "item-selection-background-color": "rgb(54, 54, 54)",
+        "item-selection-color": "rgb(255, 255, 255)"
+    },
+    "MainWindow_CentralBox": {
+        "background-color": "rgba(80, 80, 80, 0.5)"
+    },
+    "MainWindow_TextEditLabel": {
+        "background-color": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)"
+    },
+    "MainWindow_ComboBoxLabel": {
+        "background-color": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 255, 255)"
+    },
+    "Button": {
+        "default-background-color": "rgb(77, 77, 77)",
+        "color": "rgb(255, 255, 255)",
+        "active-background-color": "rgb(64, 64, 64)"
+    },
+    "ComboBox": {
+        "default-background-color": "rgb(77, 77, 77)",
+        "color": "rgb(255, 255, 255)",
+        "active-background-color": "rgb(64, 64, 64)",
+        "drop-down-background-color": "rgb(60, 60, 60)",
+        "abstract-item-view-background-color": "rgb(60, 60, 60)",
+        "abstract-item-view-selection-background-color": "rgb(60, 60, 60)"
+    },
+    "TextEdit": {
+        "default-background-color": "rgb(77, 77, 77)",
+        "color": "rgb(255, 255, 255)",
+        "active-background-color": "rgb(64, 64, 64)",
+        "selection-color": "rgb(255, 255, 255)",
+        "selection-background-color": "rgba(100, 100, 100, 0.8)"
+    },
+    "BackgroundCodeLine": {
+        "background-color": "rgb(55, 55, 55)"
+    },
+    "ChangeLimitsWindow_Box": {
+        "border-color": "rgb(77, 77, 77)",
+        "background-color": "rgba(255, 255, 255, 0)"
+    },
+    "ChangeLimitsWindow_Edits": {
+        "background-color": "rgb(77, 77, 77)",
+        "selection-color": "rgb(255, 255, 255)",
+        "selection-background-color": "rgba(100, 100, 100, 0.8)"
+    },
+    "SearchWindow": {
+        "background-color": "rgb(23, 34, 54)",
+        "scroll-color": "rgb(80, 80, 80)"
+    },
+    "SearchWindow_Header": {
+        "background-color": "rgb(23, 34, 54)",
+        "border-color": "rgb(55, 55, 55)",
+        "color": "rgb(255, 255, 255)"
+    },
+    "SearchWindow_CodeViewer": {
+        "file-background-color": "rgb(23, 34, 54)",
+        "file-color": "rgb(255, 255, 255)",
+        "code-background-color": "rgb(30, 30, 30)",
+        "default-color": "rgb(220, 220, 220)",
+        "selection-color": "rgb(255, 255, 255)",
+        "selection-background-color": "rgb(41, 85, 128)",
+        "border-color": "rgb(85, 85, 85)",
+        "extra-selection-background-color": "rgb(51, 153, 255)"
+    },
+    "PythonSyntaxHighlight": {
+        "keyword-color": "rgb(64, 115, 158)",
+        "number-color": "rgb(148, 206, 168)",
+        "brace-color": "rgb(241, 215, 10)",
+        "string-color": "rgb(195, 145, 106)",
+        "comment-color": "rgb(106, 153, 85)"
+    },
+    "CPPSyntaxHighlight": {
+        "keyword-color": "rgb(64, 115, 158)",
+        "keyword2-color": "rgb(208, 151, 185)",
+        "keyword3-color": "rgb(67, 173, 152)",
+        "keyword4-color": "rgb(140, 140, 140)",
+        "number-color": "rgb(148, 206, 168)",
+        "brace-color": "rgb(241, 215, 10)",
+        "string-color": "rgb(195, 145, 106)",
+        "comment-color": "rgb(106, 153, 85)"
+    },
+    "CSyntaxHighlight": {
+        "keyword-color": "rgb(64, 115, 158)",
+        "keyword2-color": "rgb(208, 151, 185)",
+        "keyword3-color": "rgb(67, 173, 152)",
+        "keyword4-color": "rgb(140, 140, 140)",
+        "number-color": "rgb(148, 206, 168)",
+        "brace-color": "rgb(241, 215, 10)",
+        "string-color": "rgb(195, 145, 106)",
+        "comment-color": "rgb(106, 153, 85)"
+    },
+    "JSSyntaxHighlight": {
+        "keyword-color": "rgb(64, 115, 158)",
+        "number-color": "rgb(148, 206, 168)",
+        "brace-color": "rgb(241, 215, 10)",
+        "string-color": "rgb(195, 145, 106)",
+        "comment-color": "rgb(106, 153, 85)"
+    },
+    "HTMLSyntaxHighlight": {
+        "keyword-color": "rgb(64, 115, 158)",
+        "string-color": "rgb(195, 145, 106)",
+        "comment-color": "rgb(106, 153, 85)"
+    },
+    "CSSSyntaxHighlight": {
+        "keyword-color": "rgb(64, 115, 158)",
+        "string-color": "rgb(195, 145, 106)",
+        "comment-color": "rgb(106, 153, 85)"
+    },
+    "LuaSyntaxHighlight": {
+        "keyword-color": "rgb(64, 115, 158)",
+        "number-color": "rgb(148, 206, 168)",
+        "brace-color": "rgb(241, 215, 10)",
+        "string-color": "rgb(195, 145, 106)",
+        "comment-color": "rgb(106, 153, 85)"
+    }
+}
