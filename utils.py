@@ -6,13 +6,14 @@ def convert_to_rgb(string : str) -> tuple[int, int, int]:
     Converts a string in the format “rgb(red, green, blue)” to a tuple of three integers (red, green, blue).
     """
 
-    red, green, blue = string.replace("rgb(", "").replace(")", "").split(", ")
     try:
+        red, green, blue = string.replace("rgb(", "").replace(")", "").split(", ")
+    
         red = int(red)
         green = int(green)
         blue = int(blue)
         return (red, green, blue)
-    except ValueError:
+    except Exception:
         return (255, 255, 255)
     
 def resource_path(relative_path : str):

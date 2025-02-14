@@ -225,7 +225,7 @@ class Ui_MainWindow(object):
         path = QtWidgets.QFileDialog.getExistingDirectory(self.MainWindow, "Choose folder")
         
         if path != "":
-            Ui_MainWindow.search_paths.append()
+            Ui_MainWindow.search_paths.append(path)
             save_search_paths(Ui_MainWindow.search_paths)
     def change_search_path(self):
         change_search_path_window = QtWidgets.QDialog(self.MainWindow)

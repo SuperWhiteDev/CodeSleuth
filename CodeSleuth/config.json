@@ -1,13 +1,8 @@
 {
     "theme": "default_theme.json",
     "search_paths": [
-        "C:/Program Files/Projects",
-        "C:/Program Files/Programs"
     ],
     "search_exeption_paths": [
-        "C:/Program Files/Projects/C++/GCT2/Python",
-        "C:/Program Files/Projects/C++/GCTV/Python",
-        "C:/Program Files/Projects/venv"
     ],
     "search_limits": {
         "max_results": 100,

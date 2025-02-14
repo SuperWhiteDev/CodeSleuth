@@ -25,12 +25,13 @@ class Button(QPushButton):
         self.anim.setDuration(100)
         self.anim.setEasingCurve(QEasingCurve.OutQuad)
 
-        red, green, blue = get_widget_style('Button', 'default-background-color').replace("rgb(", "").replace(")", "").split(", ")
+        
         try:
+            red, green, blue = get_widget_style('Button', 'default-background-color').replace("rgb(", "").replace(")", "").split(", ")
             red = int(red)
             green = int(green)
             blue = int(blue)
-        except ValueError:
+        except Exception:
             red = 77
             green = 77
             blue = 77
@@ -38,12 +39,12 @@ class Button(QPushButton):
         self.anim2_color = QColor(red, green, blue)
         self.anim2_start_color = QColor(red, green, blue)
         
-        red, green, blue = get_widget_style('Button', 'active-background-color').replace("rgb(", "").replace(")", "").split(", ")
         try:
+            red, green, blue = get_widget_style('Button', 'active-background-color').replace("rgb(", "").replace(")", "").split(", ")
             red = int(red)
             green = int(green)
             blue = int(blue)
-        except ValueError:
+        except Exception:
             red = 64
             green = 64
             blue = 64
@@ -63,24 +64,24 @@ class Button(QPushButton):
 
         self.setStyleSheet(self.widget_style)
         
-        red, green, blue = get_widget_style('Button', 'default-background-color').replace("rgb(", "").replace(")", "").split(", ")
         try:
+            red, green, blue = get_widget_style('Button', 'default-background-color').replace("rgb(", "").replace(")", "").split(", ")
             red = int(red)
             green = int(green)
             blue = int(blue)
-        except ValueError:
+        except Exception:
             red = 77
             green = 77
             blue = 77
 
         self.anim2_start_color = QColor(red, green, blue)
         
-        red, green, blue = get_widget_style('Button', 'active-background-color').replace("rgb(", "").replace(")", "").split(", ")
         try:
+            red, green, blue = get_widget_style('Button', 'active-background-color').replace("rgb(", "").replace(")", "").split(", ")
             red = int(red)
             green = int(green)
             blue = int(blue)
-        except ValueError:
+        except Exception:
             red = 64
             green = 64
             blue = 64
@@ -132,12 +133,12 @@ class ComboBox(QComboBox):
         self.anim.setDuration(100)
         self.anim.setEasingCurve(QEasingCurve.OutQuad)
         
-        red, green, blue = get_widget_style('ComboBox', 'default-background-color').replace("rgb(", "").replace(")", "").split(", ")
         try:
+            red, green, blue = get_widget_style('ComboBox', 'default-background-color').replace("rgb(", "").replace(")", "").split(", ")
             red = int(red)
             green = int(green)
             blue = int(blue)
-        except ValueError:
+        except Exception:
             red = 77
             green = 77
             blue = 77
@@ -145,12 +146,12 @@ class ComboBox(QComboBox):
         self.anim2_color = QColor(red, green, blue)
         self.anim2_start_color = QColor(red, green, blue)
         
-        red, green, blue = get_widget_style('ComboBox', 'active-background-color').replace("rgb(", "").replace(")", "").split(", ")
         try:
+            red, green, blue = get_widget_style('ComboBox', 'active-background-color').replace("rgb(", "").replace(")", "").split(", ")
             red = int(red)
             green = int(green)
             blue = int(blue)
-        except ValueError:
+        except Exception:
             red = 64
             green = 64
             blue = 64
@@ -171,24 +172,24 @@ class ComboBox(QComboBox):
         
         self.setStyleSheet(self.widget_style)
         
-        red, green, blue = get_widget_style('ComboBox', 'default-background-color').replace("rgb(", "").replace(")", "").split(", ")
         try:
+            red, green, blue = get_widget_style('ComboBox', 'default-background-color').replace("rgb(", "").replace(")", "").split(", ")
             red = int(red)
             green = int(green)
             blue = int(blue)
-        except ValueError:
+        except Exception:
             red = 77
             green = 77
             blue = 77
 
         self.anim2_start_color = QColor(red, green, blue)
         
-        red, green, blue = get_widget_style('ComboBox', 'active-background-color').replace("rgb(", "").replace(")", "").split(", ")
         try:
+            red, green, blue = get_widget_style('ComboBox', 'active-background-color').replace("rgb(", "").replace(")", "").split(", ")
             red = int(red)
             green = int(green)
             blue = int(blue)
-        except ValueError:
+        except Exception:
             red = 64
             green = 64
             blue = 64
@@ -235,12 +236,12 @@ class TextEdit(QTextEdit):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, *kwargs)
         
-        red, green, blue = get_widget_style('TextEdit', 'default-background-color').replace("rgb(", "").replace(")", "").split(", ")
         try:
+            red, green, blue = get_widget_style('TextEdit', 'default-background-color').replace("rgb(", "").replace(")", "").split(", ")
             red = int(red)
             green = int(green)
             blue = int(blue)
-        except ValueError:
+        except Exception:
             red = 77
             green = 77
             blue = 77
@@ -248,12 +249,12 @@ class TextEdit(QTextEdit):
         self.anim_color = QColor(red, green, blue)
         self.anim_start_color = QColor(red, green, blue)
         
-        red, green, blue = get_widget_style('TextEdit', 'active-background-color').replace("rgb(", "").replace(")", "").split(", ")
         try:
+            red, green, blue = get_widget_style('TextEdit', 'active-background-color').replace("rgb(", "").replace(")", "").split(", ")
             red = int(red)
             green = int(green)
             blue = int(blue)
-        except ValueError:
+        except Exception:
             red = 64
             green = 64
             blue = 64
@@ -273,24 +274,24 @@ class TextEdit(QTextEdit):
 
         self.setStyleSheet(self.widget_style)
         
-        red, green, blue = get_widget_style('TextEdit', 'default-background-color').replace("rgb(", "").replace(")", "").split(", ")
         try:
+            red, green, blue = get_widget_style('TextEdit', 'default-background-color').replace("rgb(", "").replace(")", "").split(", ")
             red = int(red)
             green = int(green)
             blue = int(blue)
-        except ValueError:
+        except Exception:
             red = 77
             green = 77
             blue = 77
 
         self.anim_start_color = QColor(red, green, blue)
         
-        red, green, blue = get_widget_style('TextEdit', 'active-background-color').replace("rgb(", "").replace(")", "").split(", ")
         try:
+            red, green, blue = get_widget_style('TextEdit', 'active-background-color').replace("rgb(", "").replace(")", "").split(", ")
             red = int(red)
             green = int(green)
             blue = int(blue)
-        except ValueError:
+        except Exception:
             red = 64
             green = 64
             blue = 64
@@ -556,7 +557,7 @@ class SyntaxHighlighter(QSyntaxHighlighter):
             comment_rule = r"#[^\n]*"
             
             string_rules = [r"\".*\"", r"'.*'"]
-
+            
             styles = {
                 "keyword": convert_to_rgb(get_widget_style("PythonSyntaxHighlight", "keyword-color")),
                 "number": convert_to_rgb(get_widget_style("PythonSyntaxHighlight", "number-color")),

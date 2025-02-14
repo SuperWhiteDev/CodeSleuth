@@ -200,7 +200,10 @@ class Ui_SearchWindow(object):
 
         extra_selection = []
 
-        red, green, blue = get_widget_style("SearchWindow_CodeViewer", "extra-selection-background-color").replace("rgb(", "").replace(")", "").split(", ")
+        try:
+            red, green, blue = get_widget_style("SearchWindow_CodeViewer", "extra-selection-background-color").replace("rgb(", "").replace(")", "").split(", ")
+        except Exception:
+            red, green, blue = 0, 0, 0
         line_color = QtGui.QColor(int(red), int(green), int(blue))
 
         selection = QtWidgets.QTextEdit.ExtraSelection()
